@@ -50,6 +50,10 @@ body {
     color: #E5E7EB;
     text-decoration: none;
 }
+.header-links {
+    display: flex;
+    gap: 15px;
+}
 
 .hero-main > p {
     margin: 0;
