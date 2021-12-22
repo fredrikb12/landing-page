@@ -9,6 +9,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 35px;
 }
 
 .top {
@@ -79,10 +80,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .info-content {
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +100,7 @@ body {
 
 .info {
     display: flex;
-    gap: 25px;
+    gap: 15px;
     justify-content: space-evenly;
 }
 
@@ -146,4 +148,31 @@ body {
     font-weight: 900;
     color: #1F2937;
     align-self: flex-end;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 60px;
+}
+
+.cta-content {
+    display: flex;
+    background-color: #3882F6;
+    width: 70%;
+    padding: 24px;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cta-button {
+    border: 2px solid white;
+}
+
+.cta-text {
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
 }
