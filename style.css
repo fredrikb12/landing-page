@@ -1,8 +1,14 @@
 body {
-    height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    margin: 0;
+}
+
+.content-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .top-container {
@@ -42,6 +48,7 @@ body {
 .header-links > a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .hero-main > p {
@@ -175,4 +182,16 @@ body {
     color: white;
     font-weight: 900;
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    width: 100%;
+    font-size: 14px;
+    padding: 20px 0px;
 }
