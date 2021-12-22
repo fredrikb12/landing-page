@@ -160,7 +160,7 @@ body {
 .cta-container {
     display: flex;
     justify-content: space-around;
-    padding: 100px 60px;
+    padding: 60px ;
 }
 
 .cta-content {
